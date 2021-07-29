@@ -1,0 +1,36 @@
+automatizzare
+
+
+=> la costruzione del muro
+
+inserire in cron ogni minuto la chiamata a build
+
+
+
+* * * * * wget -q -O /dev/null http://172.16.2.64:8080/serverside/lezione22/consumatore/build.php
+
+
+* * * * * 
+
+
+
+per verificare che le chiamate siano fate:
+
+
+tail -f access.log
+
+nella dir  /home/svilupposw1000/wordpress-5.6-0/apache2/logs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
