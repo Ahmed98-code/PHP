@@ -1,5 +1,5 @@
 <?php
-$to = 'a@gmail.com';
+   $to = 'a@gmail.com';
    $subject = 'subject';
    $body = 'Hello!';
    $headers = array('Content-Type: text/html; charset=UTF-8');
@@ -10,8 +10,9 @@ $to = 'a@gmail.com';
    $sent = mail( $to, $subject, $body, $headers );
 
    if($sent) {
-   echo "mail inviata";
-   }//message sent!
-   else  {
-   echo "mail non inviata";
-   }//message wasn't sent
+      echo "mail inviata";
+      //message sent!
+   }else{
+      echo "mail non inviata";
+      //message wasn't sent
+   }
